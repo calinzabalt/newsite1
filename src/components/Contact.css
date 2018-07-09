@@ -1,0 +1,23 @@
+.call{
+background-image: url(/imagini/contact/background.jpg);
+height: 100%;
+width: 100%;
+
+}
+
+.call .card{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+@media screen and (max-width:768px) {
+    .call .card{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+

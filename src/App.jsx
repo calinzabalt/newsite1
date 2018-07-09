@@ -7,6 +7,7 @@ import Backdrop from './components/Backdrop/Backdrop';
 import Home from './components/Home'
 import Galery from './components/Galery'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 class App extends Component {
   state = {
@@ -39,7 +40,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/Galery" component={Galery} />
           <Route path="/Contact" component={Contact} />
-
+      <Footer />
        </div>
      </Router>
     );

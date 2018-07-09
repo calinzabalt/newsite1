@@ -1,0 +1,40 @@
+footer{
+    height: 120px;
+    background-color: #F1F1F1;
+    width: 100%;
+    margin-top:0;
+    padding-top:0;
+}
+
+.center{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.copy {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.Contact {
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media screen and (max-width:1200px) {
+    footer{
+      height: 200px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    footer{
+      height: 280px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .copy{
+      padding-top: 20px;
+    }
+}
